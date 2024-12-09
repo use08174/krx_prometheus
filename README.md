@@ -2,6 +2,8 @@
 
 ## Dataset
 
+![generate_dataset](./images/generate_dataset.png)
+
 ## Training
 
 ### Continued Pretraining (CPT)
@@ -39,3 +41,7 @@ python instruction_tuning_lora.py \
 ```
 
 ## Team Member
+
+| 이름 | 김도현 | 문재원 | 심수민 | 정연석 |
+| :-----------: | :----------------------------------------------: | :----------------------------------: | :----------------------------------------: |:----------------------------------------: |
+| Github ID | [@Dohyeon-Kim1](https://github.com/Dohyeon-Kim1) | [@lumiere-on](https://github.com/lumiere-on) | [@use08174](https://github.com/use08174) | [@sit-in-a-row](https://github.com/sit-in-a-row)
