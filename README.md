@@ -4,7 +4,13 @@
 
 ![generate_dataset](./images/generate_dataset.png)
 
-## Training
+## Environment Setting
+
+```bash
+pip install -r requirements.txt
+```
+
+## Model Training
 
 ### Continued Pretraining (CPT)
 
