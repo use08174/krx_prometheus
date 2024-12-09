@@ -111,7 +111,7 @@ if __name__ == "__main__":
     dataset = Dataset.from_dict({})
 
     # local dataset
-    for path, preprocess_fns in IT_LOCAL_DATA[:1]:
+    for path, preprocess_fns in IT_LOCAL_DATA:
         raw_dataset = Dataset.from_pandas(pd.read_csv(path))
         raw_dataset = raw_dataset.add_column("use_machine_unlearning", [args.use_machine_unlearning] * len(raw_dataset))
         for preprocess_fn in preprocess_fns:
