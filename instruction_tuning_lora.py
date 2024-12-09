@@ -17,7 +17,7 @@ from train_utils import CustomTrainer, formatITV1, formatITV2, formatITV3
 IT_LOCAL_DATA = [
     ("./dataset/sample_K_IFRS.csv", (formatITV1, formatITV2)),
     ("./dataset/QA_from_pdfs.csv", (formatITV1, formatITV2)),
-    ("./dataset/sample_accounting_gosi_v3.csv", (formatITV1, formatITV2)),
+    ("./dataset/sample_accounting_gosi_v3.csv", (formatITV3)),
     ("./dataset/KRX_text_QA_final.csv", (formatITV1, formatITV2)),
     ("./dataset/dataset_cfa_program_fundamentals_ebook.csv", (formatITV1, formatITV2)),
     ("./dataset/dataset_International_Financial_Markets_and_Monetary_Policy.csv", (formatITV1, formatITV2)),
