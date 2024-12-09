@@ -1,6 +1,8 @@
 # KRX 금융 언어 모델 경진대회
 
-### Dataset
+## Dataset
+
+## Training
 
 ### Continued Pretraining (CPT)
 
@@ -36,4 +38,4 @@ python instruction_tuning_lora.py \
 --use_knowledge_distillation
 ```
 
-### Team Member
+## Team Member
