@@ -44,6 +44,13 @@ python instruction_tuning_lora.py \
 --model={continued_pretrained_model_path} \
 --use_gradient_checkpointing \
 --use_knowledge_distillation
+
+# LoRA + Knowledge Distillation + Machine Unlearning
+python instruction_tuning_lora.py \
+--model={continued_pretrained_model_path} \
+--use_gradient_checkpointing \
+--use_knowledge_distillation
+--use_machine_unlearning
 ```
 
 ## Team Member
